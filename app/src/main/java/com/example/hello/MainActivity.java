@@ -20,14 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onButtonClick(View v)
     {
+        counter++;
         Context context = getApplicationContext();
-        CharSequence text = "Updating the count...";
+        CharSequence text = "You clicked "+counter+" time(s)!";
         int duration = Toast.LENGTH_SHORT;
-
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
-        TextView tv = findViewById(R.id.txtLabel);
-        tv.setText("You clicked "+counter+" times!");
-        counter++;
     }
 }
