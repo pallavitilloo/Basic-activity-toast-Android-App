@@ -10,7 +10,7 @@
         android:id="@+id/txtLabel"
         android:layout_width="113dp"
         android:layout_height="63dp"
-        android:text="Hello World!"
+        android:text="@string/app_message"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
